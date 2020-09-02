@@ -1,0 +1,25 @@
+{
+  "name": "build-info-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup src/index.js -f cjs -o bundle.js"
+  },
+  "author": "BelifRC",
+  "license": "ISC",
+  "keywords": [
+    "build",
+    "git",
+    "version"
+  ],
+  "devDependencies": {
+    "rollup": "^2.26.9"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": ">=0.0.0"
+  },
+  "dependencies": {
+    "safe-require": "^1.0.4"
+  }
+}
